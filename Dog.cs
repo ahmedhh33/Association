@@ -8,5 +8,12 @@ namespace Association
 {
     internal class Dog
     {
+        public string breed { get; set; }
+        public string name { get; set; }
+        public Dog(string breed , string name)
+        {
+            this.breed = breed;
+            this.name = name;
+        }
     }
 }
